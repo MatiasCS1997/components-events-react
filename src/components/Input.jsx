@@ -6,7 +6,7 @@ const Formulary = (props) => {
         <input
           value={props.name}
           type="text"
-          placeholder="Ingrese Usuario"
+          placeholder="Ingresar Usuario"
           onChange={(e) => props.setName(e.target.value)}
         />
       </div>
@@ -15,7 +15,7 @@ const Formulary = (props) => {
         <input
           value={props.password}
           type="password"
-          placeholder="Ingrese Contraseña"
+          placeholder="Ingresar Contraseña"
           onChange={(e) => props.setPassword(e.target.value)}
         />
       </div>
