@@ -1,0 +1,12 @@
+.input-box {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
